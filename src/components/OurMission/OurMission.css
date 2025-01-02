@@ -1,0 +1,45 @@
+.OurMissionMain {
+  margin: auto;
+  font-family: QuickSand;
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  animation: HomeRefresh 1s 1 ease-in-out;
+}
+
+@keyframes HomeRefresh {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.OurMissionText {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  animation: TextHomeRefresh 1s 1 ease-in-out;
+}
+
+#OurMissionTextFirst {
+  width: 100%;
+  margin: 2rem;
+}
+
+#OurMissionTextSecond {
+  width: 49%;
+  float: left;
+}
+#OurMissionTextThird {
+  float: right;
+  width: 49%;
+}
+
+#OurMissionTextSecondIMG {
+  float: right;
+  width: 9rem;
+}

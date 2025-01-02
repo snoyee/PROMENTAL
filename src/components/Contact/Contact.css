@@ -1,0 +1,49 @@
+.ContactMain {
+  margin: auto;
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  font-family: QuickSand;
+}
+
+.BoxTEXTDIV-Contact {
+  width: 60%;
+  display: grid;
+  height: fit-content;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.BoxTextFirst-Contact {
+  font-size: 1.5rem;
+}
+
+.BoxTextSecond-Contact {
+  font-size: 1.5rem;
+}
+
+.BoxTextThird-Contact {
+  font-size: 1.3rem;
+}
+
+.BoxTEXTDIV-Contact-Second {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  p {
+    font-size: 1.5rem;
+  }
+  i {
+    cursor: pointer;
+  }
+}
+
+.IconsContact {
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  font-size: 3rem;
+  margin: 1.5rem;
+}

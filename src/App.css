@@ -1,0 +1,10 @@
+body {
+  margin: auto;
+  background: linear-gradient(to right, #defdda, #defdda, #ffffff);
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap");
+
+.MainHome {
+  margin: auto;
+  display: flex;
+  font-family: QuickSand;
+  width: 80%;
+  height: 100vh;
+  animation: HomeRefresh 1s 1 ease-in-out;
+}
+
+@keyframes HomeRefresh {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.TextMainHome {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  width: 70%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  animation: TextHomeRefresh 1s 1 ease-in-out;
+  h3 {
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+.ImgMainHome {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+}
+
+.ImgMainHome img {
+  width: 30rem;
+}
+
+p {
+  margin: auto;
+}

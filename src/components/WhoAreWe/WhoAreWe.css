@@ -1,0 +1,44 @@
+.WhoAreWeMain {
+  margin: auto;
+  font-family: QuickSand;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  animation: HomeRefresh 1s 1 ease-in-out;
+  scroll-snap-align: center;
+}
+
+@keyframes HomeRefresh {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.WhoAreWeText {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  width: 70%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  animation: TextHomeRefresh 1s 1 ease-in-out;
+  h3 {
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+.WhoAreWeImg {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.WhoAreWeImg img {
+  width: 20rem;
+}

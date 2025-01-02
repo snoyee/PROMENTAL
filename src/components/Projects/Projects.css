@@ -1,0 +1,59 @@
+.ProjectsMain {
+  margin: auto;
+  padding: 7rem;
+  text-align: center;
+  font-family: QuickSand;
+  width: 70%;
+  height: 100vh;
+  animation: HomeRefresh 1s 1 ease-in-out;
+  h1 {
+    margin: auto;
+    padding: 3rem;
+    font-size: 5rem;
+  }
+}
+
+@keyframes HomeRefresh {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ProjectsText {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  animation: TextHomeRefresh 1s 1 ease-in-out;
+}
+
+#ProjectsBoxFirst {
+  width: 33%;
+}
+
+#ProjectsBoxSecond {
+  width: 33%;
+}
+#ProjectsBoxThird {
+  width: 33%;
+}
+
+button {
+  cursor: pointer;
+  margin: 2rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 15rem;
+  background-color: rgba(0, 0, 0, 0.068);
+  padding: 1rem;
+}
+
+button:hover {
+  box-shadow: inset 0px 10px 20px 2px rgba(105, 231, 147, 0.288);
+}
