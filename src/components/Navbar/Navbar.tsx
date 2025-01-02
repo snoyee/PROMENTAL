@@ -6,7 +6,11 @@ function Navbar() {
     <>
       <div className="MainNavbar">
         <div className="Logo">
-          <img src={LOGO} onClick={() => window.location.reload()}></img>
+          <img
+            src={LOGO}
+            style={{ cursor: "pointer" }}
+            onClick={() => window.location.reload()}
+          ></img>
         </div>
         <div className="links">
           <a href="#Main" id="HomeB">
