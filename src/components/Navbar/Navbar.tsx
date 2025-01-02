@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <div className="MainNavbar">
         <div className="Logo">
-          <img src={LOGO}></img>
+          <img src={LOGO} onClick={() => window.location.reload()}></img>
         </div>
         <div className="links">
           <a href="#Main" id="HomeB">
